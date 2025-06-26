@@ -10,7 +10,7 @@ import Saksi from './_components/Saksi'
 import Footer from './_components/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from './_assets/Logo.png';
+import Logo from './_assets/logo.png';
 import bid1 from './bidang1/page'
 import bid2 from './bidang2/page'
 

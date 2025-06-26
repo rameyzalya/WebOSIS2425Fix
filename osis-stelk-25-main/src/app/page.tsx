@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Hero from "./_components/Hero";
 import VisiMisi from "./_components/VisiMisi";
 import Ketos from "./_components/Ketos";
@@ -9,39 +9,6 @@ import Saksi from "./_components/Saksi";
 import Footer from "./_components/Footer";
 
 function Page() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  useEffect(() => {
-    const scrollHeader = () => {
-      if (window.scrollY >= 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", scrollHeader);
-    return () => window.removeEventListener("scroll", scrollHeader);
-  }, []);
-
-  // Handle body scroll when menu is open (for mobile)
-  useEffect(() => {
-    if (isMenuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isMenuOpen]);
-
   return (
     <div className="min-h-screen w-full overflow-x-hidden">
       {/* Hero Section - Responsive padding */}

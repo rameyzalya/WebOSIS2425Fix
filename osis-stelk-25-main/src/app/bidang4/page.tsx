@@ -9,6 +9,7 @@ import ig2 from "../_assets/ig2.png"
 import { alisha, byan, isyatir, nayla, ratu, salsa, sarwani } from "../_assets/anggota/bidang 4/page";
 
 
+
 const Bidang1Page = () => {
     return (
         <>

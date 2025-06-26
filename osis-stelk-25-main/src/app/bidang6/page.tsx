@@ -6,7 +6,13 @@ import Image from "next/image";
 import ketubing from "../_assets/ketuabid/haura.png";
 import ig from "../_assets/ig.png"
 import ig2 from "../_assets/ig2.png"
-import { akif, aldian, alif, ayla, danish, rali } from "../_assets/anggota/bidang 6/page";
+// Import images directly from their paths
+import akif from "../_assets/anggota/bidang 6/akif.png";
+import aldian from "../_assets/anggota/bidang 6/aldian.png";
+import alif from "../_assets/anggota/bidang 6/alif.png";
+import ayla from "../_assets/anggota/bidang 6/ayla.png";
+import danish from "../_assets/anggota/bidang 6/danish.png";
+import rali from "../_assets/anggota/bidang 6/rali.png";
 
 
 const Bidang1Page = () => {

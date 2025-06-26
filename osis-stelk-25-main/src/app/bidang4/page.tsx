@@ -6,7 +6,14 @@ import Image from "next/image";
 import ketubing from "../_assets/ketuabid/fira.png";
 import ig from "../_assets/ig.png"
 import ig2 from "../_assets/ig2.png"
-import { alisha, byan, isyatir, nayla, ratu, salsa, sarwani } from "../_assets/anggota/bidang 4/page";
+// Import images directly from their paths
+import alisha from "../_assets/anggota/bidang 4/alisha.png";
+import byan from "../_assets/anggota/bidang 4/byan.png";
+import isyatir from "../_assets/anggota/bidang 4/isyatir.png";
+import nayla from "../_assets/anggota/bidang 4/nayla.png";
+import ratu from "../_assets/anggota/bidang 4/ratu.png";
+import salsa from "../_assets/anggota/bidang 4/salsa.png";
+import sarwani from "../_assets/anggota/bidang 4/sarwani.png";
 
 
 

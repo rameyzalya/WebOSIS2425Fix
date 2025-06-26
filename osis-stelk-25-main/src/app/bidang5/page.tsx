@@ -6,7 +6,13 @@ import Image from "next/image";
 import ketubing from "../_assets/ketuabid/imel.png";
 import ig from "../_assets/ig.png"
 import ig2 from "../_assets/ig2.png"
-import { cheryl, daniel, fatika, jenifer, nayla, revano } from "../_assets/anggota/bidang 5/page";
+// Import images directly from their paths
+import cheryl from "../_assets/anggota/bidang 5/cheryl.png";
+import daniel from "../_assets/anggota/bidang 5/daniel.png";
+import fatika from "../_assets/anggota/bidang 5/fatika.png";
+import jenifer from "../_assets/anggota/bidang 5/jenifer.png";
+import nayla from "../_assets/anggota/bidang 5/nayla.png";
+import revano from "../_assets/anggota/bidang 5/revano.png";
 
 
 const Bidang1Page = () => {

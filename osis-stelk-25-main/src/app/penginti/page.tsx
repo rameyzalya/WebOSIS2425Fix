@@ -55,134 +55,193 @@ const Bidang1Page = () => {
               </h2>
               <div className="h-1 w-[50%] bg-white item-star"></div>
             </div>
-            <Link href="" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.instagram.com/luckyanaulyaa?igsh=MXJhNXg0aG5jY3Bubw=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image src={ig} alt="ig" className="mt-10" />
             </Link>
           </div>
         </div>
       </div>
-      <div className="flex mt-10 flex-col h-[100vh]">
+      <div className="flex mt-10 flex-col min-h-[100vh]">
         <div className="text-center italic">
           <h3 className="m-3 text-4xl font-bold text-[#6B0000]">
             ANGGOTA INTI
           </h3>
         </div>
-        <div className="flex flex-col items-center justify-center mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[40px]">
-            {/* agnes*/}
-            <div className="max-w-[400px]">
-              <Image
-                src={alya}
-                alt="farras"
-                width={400}
-                className="mt-[30px]"
-              />
-              <div>
-                <div className="flex flex-col items-start ml-5">
-                  <h2 className="text-[25px] font-bold pb-2 text-[#6B0000] mt-5">
-                    Rameyza Alya mahirah Wahid
-                  </h2>
-                  <h2 className="text-[18px] font-bold pb-2 text-[#6B0000]">
-                    Wakil Ketua 1
-                  </h2>
-                  <div className="h-1 w-[50%] bg-[#6B0000] item-star"></div>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
-                    <Image src={ig2} alt="ig" className="mt-3" />
-                  </Link>
-                </div>
+        <div className="flex flex-col items-center justify-center mt-10 px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[900px] w-full">
+            {/* Alya */}
+            <div className="flex flex-col items-center w-full">
+              <div className="w-[350px] h-[400px] overflow-hidden rounded-lg">
+                <Image
+                  src={alya}
+                  alt="Rameyza Alya mahirah Wahid"
+                  width={350}
+                  height={400}
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <div className="mt-4 text-center w-full">
+                <h2 className="text-[22px] font-bold pb-2 text-[#6B0000]">
+                  Rameyza Alya mahirah Wahid
+                </h2>
+                <h3 className="text-[16px] font-bold pb-2 text-[#6B0000]">
+                  Wakil Ketua 1
+                </h3>
+                <div className="h-1 w-[50%] bg-[#6B0000] mx-auto mb-3"></div>
+                <Link
+                  href="https://www.instagram.com/ramezyalya?igsh=MXNhZ3Z2b2dmaGVtOA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={ig2} alt="ig" className="mx-auto" />
+                </Link>
               </div>
             </div>
-            {/* anya*/}
-            <div className="max-w-[400px]">
-              <Image src={kiki} alt="Aufa" width={400} className="mt-5" />
-              <div>
-                <div className="flex flex-col items-start ml-5">
-                  <h2 className="text-[25px] font-bold pb-2 text-[#6B0000] mt-5">
-                    Muhammad Rizky Prasetya
-                  </h2>
-                  <h2 className="text-[18px] font-bold pb-2 text-[#6B0000]">
-                    Wakil Ketua 2
-                  </h2>
-                  <div className="h-1 w-[50%] bg-[#6B0000] item-star"></div>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
-                    <Image src={ig2} alt="ig" className="mt-3" />
-                  </Link>
-                </div>
+
+            {/* Kiki */}
+            <div className="flex flex-col items-center w-full">
+              <div className="w-[350px] h-[400px] overflow-hidden rounded-lg">
+                <Image
+                  src={kiki}
+                  alt="Muhammad Rizky Prasetya"
+                  width={350}
+                  height={400}
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <div className="mt-4 text-center w-full">
+                <h2 className="text-[22px] font-bold pb-2 text-[#6B0000]">
+                  Muhammad Rizky Prasetya
+                </h2>
+                <h3 className="text-[16px] font-bold pb-2 text-[#6B0000]">
+                  Wakil Ketua 2
+                </h3>
+                <div className="h-1 w-[50%] bg-[#6B0000] mx-auto mb-3"></div>
+                <Link
+                  href="https://www.instagram.com/rzkyyprasetya?igsh=MXdnam5sbzl0Mzh0MQ=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={ig2} alt="ig" className="mx-auto" />
+                </Link>
               </div>
             </div>
-            {/* fadhil */}
-            <div className="max-w-[400px]">
-              <Image src={nabila} alt="Aufa" width={400} />
-              <div>
-                <div className="flex flex-col items-start ml-5">
-                  <h2 className="text-[25px] font-bold pb-2 text-[#6B0000] mt-5">
-                    Nabila Humairah AR
-                  </h2>
-                  <h2 className="text-[18px] font-bold pb-2 text-[#6B0000]">
-                    Sekertaris 1
-                  </h2>
-                  <div className="h-1 w-[50%] bg-[#6B0000] item-star"></div>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
-                    <Image src={ig2} alt="ig" className="mt-3" />
-                  </Link>
-                </div>
+
+            {/* Nabila */}
+            <div className="flex flex-col items-center w-full">
+              <div className="w-[350px] h-[400px] overflow-hidden rounded-lg">
+                <Image
+                  src={nabila}
+                  alt="Nabila Humairah AR"
+                  width={350}
+                  height={400}
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <div className="mt-4 text-center w-full">
+                <h2 className="text-[22px] font-bold pb-2 text-[#6B0000]">
+                  Nabila Humairah AR
+                </h2>
+                <h3 className="text-[16px] font-bold pb-2 text-[#6B0000]">
+                  Sekertaris 1
+                </h3>
+                <div className="h-1 w-[50%] bg-[#6B0000] mx-auto mb-3"></div>
+                <Link href="" target="_blank" rel="noopener noreferrer">
+                  <Image src={ig2} alt="ig" className="mx-auto" />
+                </Link>
               </div>
             </div>
-            {/* fiqih*/}
-            <div className="max-w-[400px]">
-              <Image src={vero} alt="Aufa" width={400} />
-              <div>
-                <div className="flex flex-col items-start ml-5">
-                  <h2 className="text-[25px] font-bold pb-2 text-[#6B0000] mt-5">
-                    Veronika Andini
-                  </h2>
-                  <h2 className="text-[18px] font-bold pb-2 text-[#6B0000]">
-                    Sekertaris 2
-                  </h2>
-                  <div className="h-1 w-[50%] bg-[#6B0000] item-star"></div>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
-                    <Image src={ig2} alt="ig" className="mt-3" />
-                  </Link>
-                </div>
+
+            {/* Vero */}
+            <div className="flex flex-col items-center w-full">
+              <div className="w-[350px] h-[400px] overflow-hidden rounded-lg">
+                <Image
+                  src={vero}
+                  alt="Veronika Andini"
+                  width={350}
+                  height={400}
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <div className="mt-4 text-center w-full">
+                <h2 className="text-[22px] font-bold pb-2 text-[#6B0000]">
+                  Veronika Andini
+                </h2>
+                <h3 className="text-[16px] font-bold pb-2 text-[#6B0000]">
+                  Sekertaris 2
+                </h3>
+                <div className="h-1 w-[50%] bg-[#6B0000] mx-auto mb-3"></div>
+                <Link
+                  href="https://www.instagram.com/veronikaandini?igsh=YXR2MGc4a2JqZ2Jt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={ig2} alt="ig" className="mx-auto" />
+                </Link>
               </div>
             </div>
-            {/* raisya */}
-            <div className="max-w-[400px]">
-              <Image src={sakha} alt="Aufa" width={400} />
-              <div>
-                <div className="flex flex-col items-start ml-5">
-                  <h2 className="text-[25px] font-bold pb-2 text-[#6B0000] mt-5">
-                    MSakha Ibdail Kiram
-                  </h2>
-                  <h2 className="text-[18px] font-bold pb-2 text-[#6B0000]">
-                    Bendahara 1
-                  </h2>
-                  <div className="h-1 w-[50%] bg-[#6B0000] item-star"></div>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
-                    <Image src={ig2} alt="ig" className="mt-3" />
-                  </Link>
-                </div>
+
+            {/* Sakha */}
+            <div className="flex flex-col items-center w-full">
+              <div className="w-[350px] h-[350px] overflow-hidden rounded-lg">
+                <Image
+                  src={sakha}
+                  alt="MSakha Ibdail Kiram"
+                  width={350}
+                  height={350}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="mt-4 text-center w-full">
+                <h2 className="text-[22px] font-bold pb-2 text-[#6B0000]">
+                  MSakha Ibdail Kiram
+                </h2>
+                <h3 className="text-[16px] font-bold pb-2 text-[#6B0000]">
+                  Bendahara 1
+                </h3>
+                <div className="h-1 w-[50%] bg-[#6B0000] mx-auto mb-3"></div>
+                <Link
+                  href="https://www.instagram.com/ssakhaik?igsh=MXBvMmI0bW9qMDg1ZQ=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={ig2} alt="ig" className="mx-auto" />
+                </Link>
               </div>
             </div>
-            {/* reza  */}
-            <div className="max-w-[400px]">
-              <Image src={anin} alt="Aufa" width={400} />
-              <div>
-                <div className="flex flex-col items-start ml-5">
-                  <h2 className="text-[25px] font-bold pb-2 text-[#6B0000] mt-5">
-                    Anindya Shakira Valentine
-                  </h2>
-                  <h2 className="text-[18px] font-bold pb-2 text-[#6B0000]">
-                    Bendahara 2
-                  </h2>
-                  <div className="h-1 w-[50%] bg-[#6B0000] item-star"></div>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
-                    <Image src={ig2} alt="ig" className="mt-3" />
-                  </Link>
-                </div>
+
+            {/* Anin */}
+            <div className="flex flex-col items-center w-full">
+              <div className="w-[350px] h-[350px] overflow-hidden rounded-lg">
+                <Image
+                  src={anin}
+                  alt="Anindya Shakira Valentine"
+                  width={350}
+                  height={350}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="mt-4 text-center w-full">
+                <h2 className="text-[22px] font-bold pb-2 text-[#6B0000]">
+                  Anindya Shakira Valentine
+                </h2>
+                <h3 className="text-[16px] font-bold pb-2 text-[#6B0000]">
+                  Bendahara 2
+                </h3>
+                <div className="h-1 w-[50%] bg-[#6B0000] mx-auto mb-3"></div>
+                <Link
+                  href="https://www.instagram.com/anindyashkrv?igsh=MWs2dHQ4ZmZiYXg1MA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={ig2} alt="ig" className="mx-auto" />
+                </Link>
               </div>
             </div>
-            {/* yudhi */}
           </div>
         </div>
       </div>

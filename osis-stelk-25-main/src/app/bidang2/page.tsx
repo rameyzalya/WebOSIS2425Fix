@@ -19,13 +19,13 @@ import yudhi from "../_assets/anggota/bidang 2/yudhi.png";
 const Bidang1Page = () => {
   return (
     <>
-      <div className="judul mt-[150px] w-max text-center flex-col items-center mx-auto mb-20">
+      <div className="judul mt-[150px] w-max text-center flex-col items-center mx-auto mb-2">
         <h1 className="text-[70px] font-bold text-[#6B0000]">BIDANG 2</h1>
         <p className="text-[20px] font-semibold text-[#6B0000]">
           PEMBINAAN KARAKTER KEBANGSAAN, KEDISIPLINAN DAN KEPEDULIAN SOSIAL
         </p>
       </div>
-      <div className="relative items-center h-max-w-[100vw] mx-auto mt-10 flex flex-col justify-center text-center">
+      <div className="relative items-center h-max-w-[100vw] mx-auto mt-0 flex flex-col justify-center text-center">
         {/* Hero Image */}
         <Image
           src={hero}

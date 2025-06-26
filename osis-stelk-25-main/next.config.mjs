@@ -1,6 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// next.config.mjs
+import { defineConfig } from "next";
+
+export default defineConfig({
   reactStrictMode: true,
-  output: "standalone", // Untuk Vercel
-};
-module.exports = nextConfig;
+  output: "standalone",
+});

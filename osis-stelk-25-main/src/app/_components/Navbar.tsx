@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { IoMdClose } from "react-icons/io";
 import Foto from '../_assets/Yu.png';
-import Logo from '../_assets/Logo.png';
+import Logo from '../_assets/logo.png';
 
 function Navbar() {
     const [menu, setMenu] = useState(false);

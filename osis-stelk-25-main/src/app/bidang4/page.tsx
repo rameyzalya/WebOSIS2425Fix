@@ -7,7 +7,6 @@ import ketubing from "../_assets/ketuabid/fira.png";
 import ig from "../_assets/ig.png"
 import ig2 from "../_assets/ig2.png"
 import { alisha, byan, isyatir, nayla, ratu, salsa, sarwani } from "../_assets/anggota/bidang 4/page";
-import { link } from "fs";
 
 
 const Bidang1Page = () => {

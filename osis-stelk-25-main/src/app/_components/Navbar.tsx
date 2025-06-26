@@ -2,9 +2,6 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { IoMdClose } from "react-icons/io";
-import Foto from '../_assets/Yu.png';
 import Logo from '../_assets/logo.png';
 
 function Navbar() {

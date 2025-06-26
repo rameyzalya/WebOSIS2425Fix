@@ -5,7 +5,7 @@
       "src": "osis-stelk-25-main/package.json",
       "use": "@vercel/next",
       "config": {
-        "rootDirectory": "osis-stelk-25-main"
+        "rootDirectory": "."
       }
     }
   ],

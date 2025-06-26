@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "osis-stelk-25-main/package.json",
+      "use": "@vercel/next",
+      "config": {
+        "rootDirectory": "osis-stelk-25-main"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "osis-stelk-25-main/$1"
+    }
+  ]
+}

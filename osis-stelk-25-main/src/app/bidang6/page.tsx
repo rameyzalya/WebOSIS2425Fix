@@ -55,7 +55,7 @@ const Bidang1Page = () => {
             <h3 className="text-[25px] text-white">Koordinator</h3>
             <div className="flex flex-col items-start">
               <h2 className="text-[3rem] text-white pb-2 max-w-[500px] max-lg:text-[2rem]">
-                IMEL NOVALYA A. KONDOLELE
+                HAURA KAYANA
               </h2>
               <div className="h-1 w-[50%] bg-white item-star"></div>
             </div>
